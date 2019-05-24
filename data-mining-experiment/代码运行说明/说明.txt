@@ -1,0 +1,21 @@
+code文件夹：
+include: 存放头文件位置
+		data.h: 数据处理
+		decisiontree.h: 决策树
+		knn.h: KNN
+dataset.txt: 数据集（原始数据集）
+data.txt: 实际输入的数据
+dataprerpocess.py: 数据预处理（dataset.txt --> data.txt）
+main.cpp: 程序入口
+dataprocess.cpp: 读取数据集、划分数据集等
+decisiontree.cpp: 决策树实现
+knn.cpp: KNN实现
+makefile: 生成main文件
+
+执行环境：windows、Ubuntu（需要python和g++环境）
+
+Ubuntu下执行：
+1. python dataprerpocess.py
+2. make
+3. ./main
+4. make clean

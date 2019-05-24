@@ -1,0 +1,68 @@
+| class values
+
+unacc, acc, good, vgood
+
+| attributes
+
+buying:   vhigh, high, med, low.
+maint:    vhigh, high, med, low.
+doors:    2, 3, 4, 5more.
+persons:  2, 4, more.
+lug_boot: small, med, big.
+safety:   low, med, high.
+
+
+
+
+1. Title: Car Evaluation Database
+
+2. Sources:
+   (a) Creator: Marko Bohanec
+   (b) Donors: Marko Bohanec   (marko.bohanec@ijs.si)
+               Blaz Zupan      (blaz.zupan@ijs.si)
+   (c) Date: June, 1997
+
+3. Relevant Information Paragraph:
+
+   Car Evaluation Database was derived from a simple hierarchical
+   decision model originally developed for the demonstration of DEX
+   (M. Bohanec, V. Rajkovic: Expert system for decision
+   making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates
+   cars according to the following concept structure:
+
+   CAR                      car acceptability
+   . PRICE                  overall price
+   . . buying               buying price
+   . . maint                price of the maintenance
+   . TECH                   technical characteristics
+   . . COMFORT              comfort
+   . . . doors              number of doors
+   . . . persons            capacity in terms of persons to carry
+   . . . lug_boot           the size of luggage boot
+   . . safety               estimated safety of the car
+
+
+4. Number of Instances: 1728
+   (instances completely cover the attribute space)
+
+5. Number of Attributes: 6
+
+6. Attribute Values:
+
+   buying       v-high, high, med, low
+   maint        v-high, high, med, low
+   doors        2, 3, 4, 5-more
+   persons      2, 4, more
+   lug_boot     small, med, big
+   safety       low, med, high
+
+7. Missing Attribute Values: none
+
+8. Class Distribution (number of instances per class)
+
+   class      N          N[%]
+   -----------------------------
+   unacc     1210     (70.023 %) 
+   acc        384     (22.222 %) 
+   good        69     ( 3.993 %) 
+   v-good      65     ( 3.762 %) 
